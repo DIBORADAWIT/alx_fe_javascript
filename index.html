@@ -19,6 +19,12 @@
       placeholder="Enter quote category"
     />
     <button onclick="addQuote()">Add Quote</button>
+    <input
+      type="file"
+      id="importFile"
+      accept=".json"
+      onchange="importFromJsonFile(event)"
+    />
 
     <script src="script.js"></script>
   </body>
